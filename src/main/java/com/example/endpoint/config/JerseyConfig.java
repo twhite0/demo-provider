@@ -13,6 +13,7 @@ import com.example.endpoint.RESTDemoEndpoint;
 public class JerseyConfig extends ResourceConfig {
 
 	public JerseyConfig() {
+	    System.
 		register(RESTDemoEndpoint.class);
 	}
 
